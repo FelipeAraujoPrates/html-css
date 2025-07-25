@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{ /* box level*/
+
+            width: 200px;
+            height: 250px;
+            background-color: green;
+            
+            /*border: 10px;
+            border-style: solid;
+            border-color: aqua;*/
+             /*short hand - abreviação*/
+            border: 10px solid aqua;
+
+            /*short hand - abreviação*/
+           /* padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;*/
+            
+         /*short hand - abreviação*/
+            padding: 10px 10px 10px 10px;
+           /* padding: auto* se deixar assim, ele irá deixar todos iguais*/
+            
+           /* margin-top: 10px;
+            margin-right: 10px;
+            margin-right: 10px;
+            margin-left: 10px;*/ 
+
+          /*short hand - abreviação*/
+            margin: 10px 10px 10px 10px;
+
+            outline: 5px;
+            outline-style: dotted;
+            outline-color: hotpink;
+
+
+        }
+        a{ /*inline level*/
+           /* display: block; essa configuração transforma uma tag inline em uma tag box level ou o inverso*/
+            border: 10px;
+            border-color: greenyellow;
+            border-style: groove;
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Isso é uma box level</h1>
+    <p>Isso também é uma box level <a>O link é uma box inline</a></p>
+</body>
+</html>

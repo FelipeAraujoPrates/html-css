@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/*
+EM HTML É ID = EM CSS É #
+EM HTML É CLASS = EM CSS É .
+
+*/
+h1{
+    background-color: aqua;
+}
+
+#fodao {
+    text-align: center;
+    background-color: aqua;
+    color: blueviolet;
+}
+
+.basico{
+color: aqua;
+}
+
+.medio{
+color: chartreuse;
+}
+
+.avancado{
+color: darkblue;
+}
+
+.destaque{
+    font-weight: bolder;
+    font-size: 30px;
+}
