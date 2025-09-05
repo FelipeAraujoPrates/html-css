@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cores na coluna</title>
+    <style>
+        table{
+            width: 500px;
+            border-collapse: collapse;  
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 5px;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        .amarelo{
+            background-color: yellowgreen;
+        }
+
+        .vermelho{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="amarelo">
+            <col class="vermelho" span="2">
+            <col>
+            <col >
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th>Nome</th>
+            <th>Sexo</th>
+            <th>Idade</th>
+            <th>Profissão</th>
+        </tr>
+        <tr>
+            <td>Felipe</td>
+            <td>Masculino</td>
+            <td>22</td>
+            <td>Motoboy</td>
+        </tr>
+        <tr>
+            <td>Laura</td>
+            <td>Feminino</td>
+            <td>22</td>
+            <td>Caixa</td>
+        </tr>
+        <tr>
+            <td>Emilly</td>
+            <td>Feminino</td>
+            <td>22</td>
+            <td>Perfumista</td>
+        </tr>
+        <tr>
+            <td>Gabriel</td>
+            <td>Masculino</td>
+            <td>25</td>
+            <td>TI</td>
+        </tr>
+        <tr>
+            <td>Alonso</td>
+            <td>Masculino</td>
+            <td>35</td>
+            <td>Farmaceutico</td>
+        </tr>
+        
+    </table>
+</body>
+</html>
